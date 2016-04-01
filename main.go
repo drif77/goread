@@ -36,7 +36,7 @@ func main() {
 		if strings.HasPrefix(line, "#"){
 			continue
 		}
-		url := strings.Join(base, line)
+		url := base + line
 		fmt.Println(url)
 		
 		cmd := exec.Command(bin, "-O", url)
