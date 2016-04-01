@@ -40,7 +40,7 @@ func main() {
 		url := base + line
 		fmt.Println(url)
 		
-		cmd := exec.Command(bin, "-A", "useragent", "-O", url)
+		cmd := exec.Command(bin, "-A", useragent, "-O", url)
 		runErr := cmd.Run()
 		if runErr != nil {
 			log.Fatal(runErr)
