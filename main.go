@@ -34,7 +34,7 @@ func main() {
 		if strings.HasPrefix(line, "#"){
 			continue
 		}
-		// fmt.Println(line)
+		fmt.Println(line)
 		
 		cmd := exec.Command(bin, "-O", line)
 		runErr := cmd.Run()
