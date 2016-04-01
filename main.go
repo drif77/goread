@@ -26,7 +26,9 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
-
+	
+ 
+	base := "http://wpc.1765a.taucdn.net/801765A/video/uploads/videos/6aa46e5d-e0db-484a-ab83-a36c9c662fda/"
 	
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
@@ -34,9 +36,10 @@ func main() {
 		if strings.HasPrefix(line, "#"){
 			continue
 		}
-		fmt.Println(line)
+		url := strings.Join(base, line)
+		fmt.Println(url)
 		
-		cmd := exec.Command(bin, "-O", line)
+		cmd := exec.Command(bin, "-O", url)
 		runErr := cmd.Run()
 		if runErr != nil {
 			log.Fatal(runErr)
