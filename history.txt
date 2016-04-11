@@ -1,0 +1,210 @@
+    1  ls
+    2  ls -l
+    3  cd
+    4  ls
+    5  ls -l
+    6  ls -la
+    7  vi .profile 
+    8  exit
+    9  sudo -i
+   10  exit
+   11  groups
+   12  ls
+   13  sudo -i
+   14  ls
+   15  clear
+   16  ls
+   17  go
+   18  go env
+   19  ls
+   20  mkdir go
+   21  ls
+   22  ls -la
+   23  cat .profile 
+   24  vi .profile 
+   25  go env
+   26  exit
+   27  sudo locale-gen UTF-8
+   28  go env
+   29  ls
+   30  screen
+   31  screen -r -d 
+   32  ifconfig
+   33  history
+   34  whoami
+   35  screen -r -d
+   36  exit
+   37  screen -r -d
+   38  exit
+   39  ls
+   40  cd
+   41  ls
+   42  cd go
+   43  ls
+   44  cd src/
+   45  ls
+   46  cd github.com/
+   47  ls
+   48  cd drif77/
+   49  ls
+   50  cd goread/
+   51  ls
+   52  history
+   53  ls
+   54  printf "file '%s'\n" ./*.ts > parts.txt
+   55  cat parts.txt 
+   56  ls
+   57  history
+   58  ls
+   59  ffmpeg -f concat -i parts.txt -c copy video.ts
+   60  ls
+   61  mv video.ts /home/tonkol/. 
+   62  ifconfig
+   63  exit
+   64  cd go/
+   65  ls
+   66  cd src/
+   67  ls
+   68  cd github.com/
+   69  ls
+   70  cd drif77/
+   71  ls
+   72  cd goread/
+   73  ls
+   74  git pull
+   75  ls
+   76  go run main.go 
+   77  exit
+   78  screen -r -d
+   79  ls
+   80  pwd
+   81  hostname
+   82  exit
+   83  ls
+   84  cd go
+   85  ls
+   86  mkdir src
+   87  ls
+   88  cd src/
+   89  ls
+   90  mkdir github.com
+   91  mkdir gitlab.com
+   92  ls
+   93  go env
+   94  ls
+   95  cd github.com/
+   96  ls
+   97  mkdir tonkol77
+   98  cd tonkol77/
+   99  ls
+  100  go get
+  101  g
+  102  go
+  103  go get github.com/drif77/goread
+  104  git
+  105  sudo apt-get install git
+  106  go get github.com/drif77/goread
+  107  ls
+  108  history
+  109  ls
+  110  go get github.com/drif77/goread.git
+  111  go get github.com/drif77/goread
+  112  ls
+  113  go env
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd drif77/
+  118  ls
+  119  cd goread/
+  120  ls
+  121  git pull
+  122  ls
+  123  git run main.go
+  124  go run main.go 
+  125  vi main.go 
+  126  sudo apt-get install curl
+  127  go run main.go 
+  128  ls
+  129  vi main.go
+  130  git pull
+  131  go run main.go 
+  132  git pull
+  133  go run main.go 
+  134  git pull
+  135  go run main.go 
+  136  ls
+  137  ls -l
+  138  mkdir video
+  139  mv *.ts video/
+  140  du -sh video/
+  141  ls
+  142  git pull
+  143  ls
+  144  go run main.go 
+  145  screen
+  146  sudo apt-get install screen
+  147  iconfig
+  148  ifconfig
+  149  ls
+  150  ffmpeg -i video.ts -acodec copy -vcodec copy -out video.mp4
+  151  ffmpeg -i video.ts -acodec copy -vcodec copy video.mp4
+  152  ffmpeg -i video.ts -acodec copy -vcodec copy -bsf:a aaac:adtstoasc video.mp4
+  153  ffmpeg -i video.ts -acodec copy -vcodec copy -bsf:a aac_adtstoasc video.mp4
+  154  ls
+  155  ls -l
+  156  ffmpeg -i video.ts -acodec copy -vcodec copy -bsf:a aac_adtstoasc -itsoffset 0.1 video2.mp4
+  157  ffmpeg -i video.ts -itsoffset 0.1 -acodec copy -vcodec copy -bsf:a aac_adtstoasc video2.mp4
+  158  ffmpeg
+  159  ffmpeg -v
+  160  ffmpeg -
+  161  ffmpeg -vv
+  162  ffmpeg -V
+  163  ffmpeg --version
+  164  ffmpeg -h
+  165  clear
+  166  ffmpeg -i video.ts -itsoffset 1 -acodec copy -vcodec copy -bsf:a aac_adtstoasc video2.mp4
+  167  ffmpeg -i video.ts -itsoffset 1 -i video.ts -acodec copy -vcodec copy -bsf:a aac_adtstoasc video2.mp4
+  168  ls
+  169  ffmpeg -i video.ts -itsoffset 0.2 -i video.ts -acodec copy -vcodec copy -bsf:a aac_adtstoasc video3.mp4
+  170  ls
+  171  cd go/
+  172  l
+  173  cd ..
+  174  ls
+  175  mkdir videos
+  176  mv go/src/github.com/drif77/goread/video/* videos/
+  177  ls
+  178  ls videos/
+  179  ls
+  180  du -sh
+  181  du -s
+  182  du -h
+  183  ls
+  184  ls vi
+  185  ls video
+  186  ls
+  187  ls -l
+  188  cd go
+  189  ls
+  190  cd src/
+  191  ls
+  192  cd github.com/
+  193  ls
+  194  du
+  195  cd drif77/
+  196  ls
+  197  cd goread/
+  198  ls
+  199  git fetch
+  200  git sattus
+  201  git status
+  202  git pull
+  203  ls
+  204  touch .gitignore
+  205  vi .gitignore 
+  206  git status
+  207  cat parts.txt 
+  208  ls
+  209  history
+  210  history > history.txt
